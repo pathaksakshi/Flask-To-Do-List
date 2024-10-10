@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+# from flask import Flask, render_template, request, redirect, url_for
+# import os
+
+# app = Flask(__name__, template_folder='templates', static_folder='static')
 # Global list to store to-do items
 todo_list = []
 
@@ -17,4 +21,4 @@ def index():
     return render_template("index.html", todo_list=todo_list)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5001,debug=True)
