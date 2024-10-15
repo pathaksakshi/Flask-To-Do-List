@@ -1,17 +1,17 @@
 This is a simple To-Do List web application built using Flask. It allows users to add tasks to a to-do list and display them on the screen. The app has an interactive and colorful UI and can be deployed using Docker.
 
->>> Features <<<
+>Features 
 Add new tasks to the to-do list.
 Display a list of tasks on the main page.
 Beautiful and responsive UI.
 Deployable via Docker.
 
->>> Requirements <<<
+>Requirements 
 Python 3.9+
 Flask
 Docker
 
->>> Installation <<<
+>Installation
 
 1. Clone the repository
 ````bash
